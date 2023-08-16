@@ -1,0 +1,62 @@
+.container__icons{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.iconos_redes{
+    margin-top: 30px;
+    height: 100px;
+    width: 100px;
+
+    img{
+      width: 80%;
+      height: 80%;
+      object-fit: cover;
+    }
+
+    p{
+      margin: 0%
+    }
+   
+}
+
+
+.title__formulario{
+    padding-top: 40px;
+}
+
+form{
+    margin: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr; 
+    grid-template-rows: 1fr 1fr;
+    grid-gap: 10px;
+    padding-bottom: 50px; 
+  }
+
+  label{
+    display: none;
+}
+
+
+  input{
+    grid-column: 1/4; 
+    height: 50px; 
+    border: grey;
+  }
+
+  textarea{
+    height: 250px;
+    grid-column: 1/4;
+    border: $color-gris;
+  }
+  
+  input[type="submit"] {
+    color: $color-blanco;
+    background-color: $color-negro;
+    grid-column: 1/4 
+    
+  }

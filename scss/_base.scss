@@ -1,0 +1,47 @@
+$color-blanco: white;
+$color-negro: black;
+$background-main: #ececec;
+$color-gris: grey;
+
+.fuente-texto {
+    font-family: Verdana, Geneva, sans-serif;
+    letter-spacing: 2px;
+    word-spacing: 2px;
+    font-weight: 400;
+    text-decoration: none;
+    font-style: normal;
+    font-variant: small-caps;
+    text-transform: lowercase;
+}
+
+html {
+    width: 100%;
+    overflow-x: hidden;
+}
+
+body {
+    width: 100%;
+    overflow-x: hidden;
+}
+
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+main {
+    height: auto;
+    width: 100%;
+    background-color: $background-main
+}

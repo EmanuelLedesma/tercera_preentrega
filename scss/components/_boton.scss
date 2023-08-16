@@ -1,0 +1,22 @@
+.btn{
+    background-color: black;
+    height: 3.125rem;
+    width: 8.25rem;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 2;
+    border-radius: 0%;
+
+    a{
+        font-family: 'Koulen' cursive;
+        font-size: smaller;
+    }
+
+    span{
+        font-family: 'Koulen' cursive;
+        font-size: smaller;
+    }
+}
+

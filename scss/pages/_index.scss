@@ -1,0 +1,192 @@
+.cuotas{
+    background-color: $color-negro;
+    height: 2.1875rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+
+    span{
+        color: $color-blanco;
+        font-family: 'Montserrat', sans-serif;
+    }
+}
+
+
+
+.contenedor__categorias{
+    margin: 3.125rem;
+    
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+@media screen and (max-width: 590px){
+
+    .header__icons {
+        height: 1.2rem;
+        width: 6rem;
+        gap: none;
+        margin-right: 10px;
+    
+    }
+    
+    }
+
+@media screen and (max-width: 775px){
+        .carrusel__imagen{
+            object-fit: cover;
+            height: 25rem;
+        }
+
+}
+
+    
+@media screen and (max-width: 470px){
+        .carrusel__imagen{
+            height: 28rem;
+        }
+        
+    }
+
+@media screen and (max-width: 775px){
+        .nav__item{
+            
+            font-size: 1.2rem;
+            margin-right: 2rem;
+        }
+    
+    }
+    
+@media screen and (max-width: 470px){
+        .nav__item{
+            font-size: 1rem;
+            margin-right: 2rem;
+            ul{
+                gap: 0px;
+        
+            }
+        }
+    }
+.best-seller{
+    margin: 30px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    font-size: 1.875rem;
+    margin-top: 6.25rem;
+}
+
+.contenedor-boton{
+    display: flex;
+    justify-content: center;
+
+}
+
+@media screen and (max-width: 775px){
+    .best-seller{
+        padding-top: 30px;
+        text-align: center;
+        margin: 0
+    
+    }
+
+    .tarjeta{
+        width: 16rem;
+        height: 30rem;
+        margin: 10px;
+        margin-bottom: 50px;
+        margin-top: 50px;
+        
+
+        &__imagenContainer{
+            width: 16rem;
+            height: 30rem;
+        }
+    }
+}
+@media screen and (max-width: 470px){
+
+    .tarjeta{
+        width: 12rem;
+        height: 20rem;
+        margin-top: 0.5rem;
+        margin: 0.5rem
+
+        {
+
+        } 
+    }    
+    
+    .tarjeta-cuerpo{
+
+        h3{
+        font-size: medium;
+        }
+        span{
+            font-size: small;
+        }
+    }
+
+    
+
+    .btn{
+        margin-top: 30px;
+    }
+}
+@media screen and (max-width: 775px){
+    .categorias{
+        width: 16rem;
+        height: 28rem;
+        margin: 1rem;
+
+        &__texto{
+            font-size: medium;
+        }
+    }
+
+}
+@media screen and (max-width: 470px){
+    .categorias{
+        width: 10rem;
+        height: 23rem;
+        margin: 0rem;
+
+        &__texto{
+            font-size: small;
+        }
+    }
+}
+
+
+@media screen and (max-width: 775px){
+    .footer__container{
+        display: none;
+
+        &__pagos{
+            height: 100%;
+
+            h2{
+                display: none;
+            }
+        }
+
+    }
+
+
+    footer{
+       justify-content: center;
+       height: auto;
+    }
+
+    .metodos_de_pago i{
+        height: 40px;
+        width: 100px
+        
+    }
+}
+
+.contenedor-tarjetas{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}

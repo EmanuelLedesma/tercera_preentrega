@@ -1,0 +1,31 @@
+.nav{
+    display: block;
+    display: flex;
+    justify-content: center;
+
+    &__item{
+        
+        font-size: 1.5625rem;
+        margin-right: 6rem;
+            
+    }
+
+    ul{
+        display: flex;
+        justify-content: center;
+        gap: 50px;
+        width: 100%;
+        margin-top: 20px;
+    }
+        
+   a:hover{
+    text-decoration: underline;
+   }
+    
+   
+
+}
+
+
+
+
